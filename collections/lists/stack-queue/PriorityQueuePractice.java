@@ -26,7 +26,7 @@ public class PriorityQueuePractice {
 
         // normal 
 
-        PriorityQueue<String> pr2 = new PriorityQueue<>(Comparator.reverseOrder());
+        PriorityQueue<String> pr2 = new PriorityQueue<>();
 
         pr2.offer("Angular");
         pr2.offer("Java");

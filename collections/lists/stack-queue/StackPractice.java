@@ -16,7 +16,7 @@ public class StackPractice {
 
         System.out.println("----------------------------");
 
-        System.out.println("check peek"+ st.pop());
+        System.out.println("check peek " + st.peek());
         System.out.println("------------");
 
         for(String s : st) {
@@ -25,9 +25,7 @@ public class StackPractice {
 
         System.out.println("----------------------------");
 
-        st.peek();
-        System.out.println("check clone");
-        st.clone();
+        System.out.println("check clone " + st.clone());
 
 
         for(String s : st) {
