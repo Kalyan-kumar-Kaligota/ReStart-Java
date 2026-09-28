@@ -1,3 +1,5 @@
+package collections.lists.ListPractice;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -16,9 +18,9 @@ public class SecondComparision {
 
         System.out.println("get 2 print==> " + ali.get(2) + "   and liked list ==>" + llista.get(2));
         System.out.println("==============================");
-        ali.add("React");
-        llista.add(0, null);
-        System.out.println("insert 2nd index react=== array   " + ali + "  linked list ===  " + llista);
+        ali.add(2, "React");
+        llista.add(2, "React");
+        System.out.println("insert React at index 2 === array   " + ali + "  linked list ===  " + llista);
         System.out.println("===============--------------------");
 
         System.out.println("array list data ==>  " + ali);

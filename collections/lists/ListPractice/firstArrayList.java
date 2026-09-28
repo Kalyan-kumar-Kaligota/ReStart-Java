@@ -1,3 +1,5 @@
+package collections.lists.ListPractice;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -20,7 +22,8 @@ public class firstArrayList {
         }
 
         System.out.println("li 2nd index   ==   "+ li.get(2));
-        System.out.println("replace Kalyan2 with kalyan2   ==   " + li.set(2, "Kalyan2"));
+        System.out.println("replaced value at index 2   ==   " + li.set(2, "Kalyan2"));
+        System.out.println("list after set   ==   " + li);
         System.out.println("remove kalyan1   ==   "+ li.remove(1));
         System.out.println("check contains   ==   "+ li.contains("kalyan3"));
         System.out.println("list size  ==  "+ li.size());

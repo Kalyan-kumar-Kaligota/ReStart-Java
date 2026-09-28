@@ -1,3 +1,5 @@
+package collections.lists.ListPractice;
+
 import java.util.Vector;
 
 public class VectorPractice {
@@ -27,7 +29,8 @@ public class VectorPractice {
 
         System.out.println("-----------------------------------------------");
 
-        System.out.println("set 4 core java----------->"+ vec.set(4, "Core java"));
+        System.out.println("replaced value at index 4 -----------> " + vec.set(4, "Core java"));
+        System.out.println("vector after set -----------> " + vec);
         System.out.println("-----------------------------------------------");
         System.out.println("remove java from the vecor-------->   " +vec.remove(String.valueOf("Java")));
         System.out.println("-----------------------------------------------");
